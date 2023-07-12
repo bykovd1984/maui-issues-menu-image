@@ -17,13 +17,13 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
-
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
+            
+            <Image HeightRequest="16" WidthRequest="16">
+              <Image.Source>
+                <FileImageSource File="phone.png"/>
+              </Image.Source>
+            </Image>
+              
             <Label
                 Text="Hello, World!"
                 SemanticProperties.HeadingLevel="Level1"
