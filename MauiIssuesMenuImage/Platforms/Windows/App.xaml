@@ -5,4 +5,10 @@
     xmlns:maui="using:Microsoft.Maui"
     xmlns:local="using:MauiIssuesMenuImage.WinUI">
 
+    <maui:MauiWinUIApplication.Resources> 
+      <Style TargetType="MenuFlyoutPresenter">
+        <Setter Property="Background" Value="Red" />
+      </Style>
+    </maui:MauiWinUIApplication.Resources>
+  
 </maui:MauiWinUIApplication>
